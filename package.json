@@ -17,7 +17,7 @@
     "prepublishOnly": "npm run build",
     "release-channel": "node ./scripts/release-channel.js",
     "release-notes": "node ./scripts/release-notes.js",
-    "install": "npm run build"
+    "install": "npm install && npm run build"
   },
   "prettier": {
     "printWidth": 100,
