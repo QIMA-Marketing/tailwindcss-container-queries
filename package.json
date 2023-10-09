@@ -16,8 +16,7 @@
     "postbuild": "tsc --emitDeclarationOnly",
     "prepublishOnly": "npm run build",
     "release-channel": "node ./scripts/release-channel.js",
-    "release-notes": "node ./scripts/release-notes.js",
-    "install": "npm install && npm run build"
+    "release-notes": "node ./scripts/release-notes.js"
   },
   "prettier": {
     "printWidth": 100,
